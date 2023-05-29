@@ -8,4 +8,4 @@ Desafio é construir este componente de cartão de pré-visualização do produt
 </a>
 
 ## Veja como ficou
-[Site](https://challenges-e2sh.vercel.app/)
+[Site](https://challenges-product.vercel.app/)
