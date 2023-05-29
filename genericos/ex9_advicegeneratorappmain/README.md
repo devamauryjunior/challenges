@@ -9,6 +9,3 @@
     <img src="https://skillicons.dev/icons?i=js,css,html,vscode,git,github" />
   </a>
 </p>
-
-## Veja como ficou
-[Site](https://devamauryjunior.github.io/advice-generator-app-main/)
