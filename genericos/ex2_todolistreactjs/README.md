@@ -5,6 +5,6 @@ Nese projeto o intuito dele é criar listas de tarefas, bem como, mostrar tarefa
 <img src="https://skillicons.dev/icons?i=react,js,css,html,git,github,vscode,vite" />
 
 ### Veja como ficou e teste
-<a href="https://reactjs-todolistbr.netlify.app/" target="_blank">
+<a href="https://challenges-lk2k.vercel.app/" target="_blank">
     <img src="./public/images/screen.png" alt="site">
 </a>
