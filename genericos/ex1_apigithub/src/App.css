@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.3rem 2.3rem;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+}
+
+
+.nav1 img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+
+.nav1 h2 {
+  color: #F9F9F9;
+  font-size: 2.2rem;
+}
+
+.navigation a {
+  color: #F9F9F9;
+}
+
+.container {
+  width: 100%
+}
+
+.my-projects {
+  margin-top: 1.2rem;
+}
+
+.my-projects h1 {
+  font-size: 3.6rem;
+  color: #F9F9F9;
+}
+
+.my-projects h2 {
+  font-size: 1.6rem;
+  color: #F9F9F9;
+  
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4220c7;
+  color: #F9F9F9;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.projects a {
+  color: #F9F9F9;
+}

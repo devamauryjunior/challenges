@@ -1,0 +1,64 @@
+#header {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.input-button input {
+    font-size: 2rem;
+    padding: .6rem;
+    margin-right: 1rem;
+}
+
+input:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#addTarefa {
+    padding: .6rem;
+    border: none;
+    background: none;
+}
+
+.sobre-tarefa {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sobre-tarefa h2 {
+    font-size: 2rem;
+    font-family: cursive;
+    margin: 2rem 1.6rem;
+}
+
+.sobre-tarefa li {
+    font-family: cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1.6rem;
+}
+
+#tarefa li .material-symbols-outlined,
+#tarefa-concluida li .material-symbols-outlined {
+    margin-inline: 2rem;
+}
+
+#tarefa,
+#tarefa-concluida {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

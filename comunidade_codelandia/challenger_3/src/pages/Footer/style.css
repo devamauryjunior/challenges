@@ -1,0 +1,52 @@
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #D7D5FF;
+}
+
+.ct3-title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin: 8rem 0 6rem 0;
+}
+
+.form {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.9rem;
+    margin-bottom: 7.9rem;
+}
+
+.text-area {
+    width: 100%;
+    resize: none;
+    padding-left: 1.2rem;
+    font-size: 2rem;
+}
+
+.text-area:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+@media screen and (max-width: 472px) {
+    .container-3 {
+        padding-inline: 2rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 80%;
+    }
+}

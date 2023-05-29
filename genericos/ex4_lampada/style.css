@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+i {
+    margin-inline: 8px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.buttons button {
+    width: 100px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    font-size: 20px;
+}

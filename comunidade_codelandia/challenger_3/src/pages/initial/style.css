@@ -1,0 +1,56 @@
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20rem;
+    padding: 7.8rem 0 15rem 0;
+    background: #D7D5FF;
+}
+
+.ct1-text-button {
+    width: 39rem;
+    text-align: left;
+}
+
+.ct1-text-title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.7rem;
+    font-size: 3.6rem;
+    color: #2B2B2B;
+    margin-bottom: 1.8rem;
+}
+
+.ct1-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+    margin-bottom: 4.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-1 {
+        gap: 2rem;
+    }
+
+    .ct1-text-title {
+        font-size: 3.2rem;
+    }
+
+    .ct1-text {
+        font-size: 1.8rem;
+    }
+
+    .ct1-img {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container-1 {
+        flex-direction: column;
+    }
+}

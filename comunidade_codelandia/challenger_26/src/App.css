@@ -1,0 +1,276 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  padding-inline: 2.4rem;
+}
+
+/* INICIO - NAVBAR */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.7rem 0 4.8rem 0;
+}
+
+.navbar p {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.seach {
+  display: none;
+}
+
+/* FIM - NAVBAR */
+
+/* INICIO - CONTAINER */
+.ct1 img {
+  display: none;
+}
+
+.ct1-text h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.3rem;
+  margin-bottom: .8rem;
+}
+
+.ct1-text .ct1-text-firstp {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 4rem 0 4rem 0;
+}
+
+.stats .stats-number {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+  margin-bottom: .8rem;
+}
+
+.stats .stats-class {
+  color: #737373;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+/* FIM - CONTAINER */
+
+/* INICIO - CONTAINER 1.2*/
+.ct2-images {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.ct2-images-config {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.ct2-text h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+/* FIM - CONTAINER 1.2*/
+
+/* INICIO - CONTAINER 2*/
+
+.container2 .ct3-p {
+  margin: 4.8rem 0 2.4rem 0;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.9rem;
+}
+
+.img-artistas {
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 1.6rem;
+  padding-top: 3rem;
+}
+
+.img-artistas-name, 
+.img-artistas-profissao {
+  margin-left: 2.4rem;
+}
+
+.img-artistas-name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #F9F9F9;
+  margin-bottom: .8rem;
+}
+
+.img-artistas-profissao {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #EBEBEB;
+
+}
+
+/* FIM - CONTAINER 2*/
+
+/* INICIO - FOOTER*/
+.footer {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.footer ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.1rem;
+  margin: 1.6rem 0 4rem 0;
+}
+
+.footer ul li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+
+/* RESPONSIVADE */
+
+@media screen and (min-width: 1024px) {
+  .seach {
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEBEB;
+    padding-right: 1.6rem;
+  }
+
+  .seach input {
+    border: none;
+    width: 100%;
+    padding: 1.2rem 0 1.2rem 2.4rem;
+    background-color: #EBEBEB;
+  }
+
+  .seach input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+  .seach input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #737373;
+  }
+
+  .navbar-img {
+    width: 1.4rem;
+    cursor: pointer;
+  }
+
+  .ct1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+  }
+
+  .ct1-text h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 4.7rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .ct1-text .ct1-text-firstp {
+    font-size: 2.4rem;
+    font-weight: 400;
+    /* line-height: 1.7rem; */
+    margin-bottom: 3.2rem;
+  }
+  
+  .ct1 img {
+    display: block;
+    width: 50rem;
+    height: 38rem;
+  }
+
+  .ct2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+
+  .ct2-images {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .ct2-images-config {
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+  }
+
+  .ct2-text h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+  
+
+  .container2 .ct3-p {
+    margin: 8rem 0 4rem 0;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    gap: 60rem;
+  }
+
+  .footer ul {
+    margin: 0;
+  }
+
+  .footer ul li {
+    cursor: pointer;
+  }
+}
