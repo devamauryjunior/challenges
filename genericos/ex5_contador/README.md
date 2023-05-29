@@ -12,4 +12,4 @@ Nesse projeto simples, o objetivo é criar um contador.
 
 ## Ver o resultado do contador
 
-[Contador](https://contador-simples.netlify.app/)
+[Contador](https://codepen.io/devagpj/pen/qBYaXmQ)
