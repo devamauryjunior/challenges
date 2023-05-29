@@ -4,4 +4,4 @@ Esse repositório foi criado para mostrar todos os projetos que já criei, usand
 
 ## Veja como ficou
 
-[Site](https://segundo-tau.vercel.app/)
+[Site](https://challenges-githubapi.vercel.app/)
