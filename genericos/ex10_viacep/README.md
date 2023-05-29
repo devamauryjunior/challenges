@@ -8,6 +8,6 @@ Nesse projeto, fortifiquei meus conhecimentos Fetch api e demais conteúdos estu
 
 ## Veja como ficou
 
-<a href="https://devamauryjunior.github.io/cep-viacep/" target="_blank">
+<a href="https://codepen.io/devagpj/pen/OJBYmZZ" target="_blank">
     <img src="./assets/img/cep.png" alt="projeto">
 </a>
