@@ -13,6 +13,6 @@ Este projeto tem como objetivo fortelecer meus conhecimentos e, bem como, coloca
 
 ## Veja como ficou
 
-<a href="https://devamauryjunior.github.io/to-do-list/" target="_blank" rel="external">
+<a href="https://codepen.io/devagpj/pen/GRGGvjb" target="_blank" rel="external">
     Veja como ficou
 </a>
